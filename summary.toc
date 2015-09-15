@@ -1,2 +1,0 @@
-\select@language {nswissgerman}
-\contentsline {section}{\numberline {1}Einf"uhrung}{3}

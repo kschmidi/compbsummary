@@ -1,0 +1,9 @@
+# mac files
+*.DS_Store
+
+#LaTeX output files
+*.aux
+*.log
+*.pdf
+*.gz
+*.toc
