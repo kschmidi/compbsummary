@@ -1,4 +1,4 @@
-\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\documentclass[12pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
 \usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
 %\geometry{landscape}                		% Activate for for rotated page geometry
@@ -7,9 +7,18 @@
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
 
+%My imports
 \usepackage[utf8]{inputenc}
 \usepackage[nswissgerman]{babel}
 \usepackage{hyperref}
+\usepackage{fancyref}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{float}
+\usepackage[parfill]{parskip}			% No space for new paragraph
+
+%My Commands
+\newcommand{\antlr}{\href{http://www.antlr.org/}{ANTLR}\space}
 
 \title{Compilerbau und Programmierkonzepte}
 \author{Schmidiger Kevin}
@@ -23,9 +32,10 @@
 \tableofcontents
 \newpage
 
-\section{Einf"uhrung}
-Dieses Dokument ist weniger eine Zusammenfassung als eine Dokumentation von dem Modul Compilerbau und Programmierkonzepte. Ich dokumentiere und beschreibe gewisse Techniken und Vorgehensweisen.\\
-In diesem Modul wird mit \hyperref[http://www.antlr.org/]{ANTLR} gearbeitet. Zu beginn werden kleine Parser geschrieben und dann erweitert.
-%TODO improvements
+% Section Einf"uhrung
+\input intro
+
+% Section ANTLR Einrichten
+\input config_antlr
 
 \end{document}  
