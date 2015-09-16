@@ -4,6 +4,7 @@
 #LaTeX output files
 *.aux
 *.log
+*.out
 *.pdf
 *.gz
 *.toc
